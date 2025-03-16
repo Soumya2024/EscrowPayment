@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "escrowpayment"
+version = "0.1.0"
+description = ""
+authors = ["soumyaprasadchandra <soumyaprasad.chandra@webskitters.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djangorestframework = "^3.15.2"
+requests = "^2.32.3"
+environ = "^1.0"
+environs = "^11.0.0"
+djangorestframework-simplejwt = {extras = ["crypto"], version = "^5.3.1"}
+drf-yasg = "^1.21.8"
+pytz = "^2024.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
